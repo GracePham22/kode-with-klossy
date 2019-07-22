@@ -38,3 +38,13 @@ if favFood == "ice cream" {
 else if favFood == "ice cream" {
     print( " vanilla")
 }
+var gitHub = "Rocks"
+
+if gitHub == "Rocks" {
+    print("you did it")
+}
+else {
+    print ("try again")
+}
+
+}
