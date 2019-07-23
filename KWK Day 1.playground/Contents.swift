@@ -113,4 +113,25 @@ roleModel
 roleModel.append("Yara Shadidi")
 roleModel[1] = " Michele Obama"
 
+//func numberOfSlices(numberOfFriends:Int) -> Int {
+    
+//    var totalNumberOfSlices = numberOfFriends * 2
 
+// Dictionary
+var ppl = [
+    "Me" : "November 24",
+    "Brother" : "January 26",
+     "Zoe" : "December 12"
+]
+// changing Dictionary
+print(ppl)
+ppl [ "Brother"] = " December 24"
+print(ppl)
+// printing one value - unwrapping
+print(ppl["Me"]!)
+// Remove info
+ppl["Mom"] = nil
+//print
+// Just keys
+print(ppl.keys)
+print(Array(ppl.keys))
