@@ -1,6 +1,13 @@
-import UIKit
+//
+//  Scholar.swift
+//  Classes and Objects
+//
+//  Created by Apple on 7/23/19.
+//  Copyright © 2019 Apple. All rights reserved.
+//
 
-var str = "Hello, playground"
+import Foundation
+
 
 class Scholar {
     var name = " " // properties
@@ -11,17 +18,12 @@ class Scholar {
     init(scholarName: String, scholarAge: Int) { // Initializer
         name = scholarName
         age = scholarAge
-        }
-
+    }
+    
     func writeCode() {
         print("\(name) is busy coding!")
     }
     func birthday() {
-       print("She is turning \(age)")
+        print("She is turning \(age)")
     }
 }
-
-var newScholar = Scholar (scholarName: "Alice", scholarAge: 16)
-print(newScholar.name, newScholar.age)
-
-newScholar.birthday()
